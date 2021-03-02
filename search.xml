@@ -23,4 +23,17 @@
         <tag>helloworld</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Website Ready to Go!</title>
+    <url>/2021/03/01/website-set-up/</url>
+    <content><![CDATA[<p>I now have the website all set up! With the help of <a href="https://pages.github.com/">Github Pages</a> (and also a URL), I got this website set up. In case any of you want a website for yourself (because people apparently want that stuff), I’m going to show you how to make one for yourself.</p>
+<span id="more"></span>
+
+<h2 id="Make-a-Github-Account"><a href="#Make-a-Github-Account" class="headerlink" title="Make a Github Account"></a>Make a Github Account</h2><p>To start off, you must first make a <a href="https://www.github.com/">Github</a> account. This should be a bit self explainatory.</p>
+<h2 id="Create-the-Repository-for-your-Website"><a href="#Create-the-Repository-for-your-Website" class="headerlink" title="Create the Repository for your Website"></a>Create the Repository for your Website</h2><p>asdf</p>
+]]></content>
+      <tags>
+        <tag>site</tag>
+      </tags>
+  </entry>
 </search>
