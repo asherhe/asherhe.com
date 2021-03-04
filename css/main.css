@@ -1277,7 +1277,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #29f0bb;
+  background: #cf9950;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2747,4 +2747,18 @@ ul.breadcrumb li + li:last-child {
   .pagination {
     margin: 8px 0 0;
   }
+}
+button {
+  padding: 4px 8px;
+  color: #fff;
+  background-color: #242424;
+  border: none;
+  border-radius: 6px;
+}
+button:hover {
+  background-color: #141414;
+}
+input {
+  color: #fff;
+  background-color: #323232;
 }
