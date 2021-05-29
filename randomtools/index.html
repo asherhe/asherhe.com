@@ -21,20 +21,20 @@
     var CONFIG = {"hostname":"asherhe.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content=".element {     display: block;     width: 150px;     height: 150px;     border: 2px black solid;     overflow: hidden;     float: left;     margin: 5px;   }    .element p {     text-align: center;">
+  <meta name="description" content="On this section of my website, I have a bunch of tools I have created. Enjoy! Stuff to do with Elements Atomic Numbers Quizzer Random Element Generator  Clocks A Random Timer">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Random Element Generator">
-<meta property="og:url" content="http://asherhe.com/gizmosngadgets/randomelementgenerator/">
+<meta property="og:title" content="Gizmos &#39;n&#39; Gadgets">
+<meta property="og:url" content="http://asherhe.com/randomtools/">
 <meta property="og:site_name" content="Asherhe">
-<meta property="og:description" content=".element {     display: block;     width: 150px;     height: 150px;     border: 2px black solid;     overflow: hidden;     float: left;     margin: 5px;   }    .element p {     text-align: center;">
+<meta property="og:description" content="On this section of my website, I have a bunch of tools I have created. Enjoy! Stuff to do with Elements Atomic Numbers Quizzer Random Element Generator  Clocks A Random Timer">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-05-29T00:39:07.511Z">
-<meta property="article:modified_time" content="2021-03-03T15:49:52.000Z">
+<meta property="article:published_time" content="2021-05-29T00:39:07.443Z">
+<meta property="article:modified_time" content="2021-02-21T17:31:16.000Z">
 <meta property="article:author" content="Asherhe">
 <meta property="article:tag" content="asherhe">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://asherhe.com/gizmosngadgets/randomelementgenerator/">
+<link rel="canonical" href="http://asherhe.com/randomtools/">
 
 
 <script id="page-configurations">
@@ -47,7 +47,7 @@
   };
 </script>
 
-  <title>Random Element Generator | Asherhe
+  <title>Gizmos 'n' Gadgets | Asherhe
 </title>
   
 
@@ -127,16 +127,6 @@
     <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
 
   </li>
-        <li class="menu-item menu-item-tags">
-
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">1</span></a>
-
-  </li>
-        <li class="menu-item menu-item-categories">
-
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">0</span></a>
-
-  </li>
         <li class="menu-item menu-item-archive">
 
     <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archive</a>
@@ -147,9 +137,9 @@
     <a href="/mayonnaisestudios/" rel="section"><i class="fa fa-gamepad fa-fw"></i>Mayonnaise Studios</a>
 
   </li>
-        <li class="menu-item menu-item-gizmos-'n'-gadgets">
+        <li class="menu-item menu-item-random-javascript-things-i-made-for-some-reason">
 
-    <a href="/gizmosngadgets/" rel="section"><i class="fa fa-wrench fa-fw"></i>Gizmos 'n' Gadgets</a>
+    <a href="/randomtools/" rel="section"><i class="fa fa-wrench fa-fw"></i>Random JavaScript Things I made for Some Reason</a>
 
   </li>
         <li class="menu-item menu-item-computer-programs">
@@ -218,17 +208,11 @@
     <div class="post-block" lang="en">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">Random Element Generator
+<h1 class="post-title" itemprop="name headline">Gizmos 'n' Gadgets
 </h1>
 
 <div class="post-meta">
   
-  <ul class="breadcrumb">
-          
-            <li><a href="/gizmosngadgets/">GIZMOSNGADGETS</a></li>
-          <li>RANDOMELEMENTGENERATOR</li>
-        
-  </ul>
 
 </div>
 
@@ -238,285 +222,14 @@
       
       
       <div class="post-body">
-          
-<style>
-  .element {
-    display: block;
-    width: 150px;
-    height: 150px;
-    border: 2px black solid;
-    overflow: hidden;
-    float: left;
-    margin: 5px;
-  }
-
-  .element p {
-    text-align: center;
-    margin: 0;
-  }
-
-  .number {
-    font-size: small;
-  }
-
-  .symbol {
-    font-size: xx-large;
-    font-weight: bolder;
-    margin: 0px 20px !important;
-  }
-
-  .name {
-    font-style: italic;
-    font-size: smaller;
-  }
-
-  #elementsbox {
-    display: block;
-    padding: 10px;
-    max-height: 328px;
-    border: 2px black solid;
-    overflow-x: auto;
-    overflow-y: scroll;
-    margin: 20px;
-  }
-</style>
-
-<script>
-  // String format
-  if (!String.prototype.format) {
-    String.prototype.format = function() {
-      var args = arguments;
-      return this.replace(/{(\d+)}/g, function(match, number) {
-        return typeof args[number] != 'undefined'
-          ? args[number]
-          : match
-        ;
-      });
-    };
-  }
-
-  // A whole lotta elements
-  const elements = [
-    [
-      1,
-      "Hydrogen",
-      "H"
-    ],
-    [
-      2,
-      "Helium",
-      "He"
-    ],
-    [
-      3,
-      "Lithium",
-      "Li"
-    ],
-    [
-      6,
-      "Carbon",
-      "C"
-    ],
-    [
-      7,
-      "Nitrogen",
-      "N"
-    ],
-    [
-      8,
-      "Oxygen",
-      "O"
-    ],
-    [
-      9,
-      "Fluorine",
-      "F"
-    ],
-    [
-      10,
-      "Neon",
-      "Ne"
-    ],
-    [
-      11,
-      "Sodium",
-      "Na"
-    ],
-    [
-      12,
-      "Magnesium",
-      "Mg"
-    ],
-    [
-      13,
-      "Aluminum",
-      "Al"
-    ],
-    [
-      14,
-      "Silicon",
-      "Si"
-    ],
-    [
-      15,
-      "Phosphorus",
-      "P"
-    ],
-    [
-      16,
-      "Sulfur",
-      "S"
-    ],
-    [
-      17,
-      "Chlorine",
-      "Cl"
-    ],
-    [
-      18,
-      "Argon",
-      "Ar"
-    ],
-    [
-      19,
-      "Potassium",
-      "K"
-    ],
-    [
-      20,
-      "Calcium",
-      "Ca"
-    ],
-    [
-      22,
-      "Titanium",
-      "Ti"
-    ],
-    [
-      24,
-      "Chromium",
-      "Cr"
-    ],
-    [
-      26,
-      "Iron",
-      "Fe"
-    ],
-    [
-      28,
-      "Nickel",
-      "Ni"
-    ],
-    [
-      29,
-      "Copper",
-      "Cu"
-    ],
-    [
-      30,
-      "Zinc",
-      "Zn"
-    ],
-    [
-      33,
-      "Arsenic",
-      "As"
-    ],
-    [
-      42,
-      "Molybdenum",
-      "Mo"
-    ],
-    [
-      47,
-      "Silver",
-      "Ag"
-    ],
-    [
-      50,
-      "Tin",
-      "Sn"
-    ],
-    [
-      53,
-      "Iodine",
-      "I"
-    ],
-    [
-      78,
-      "Platinum",
-      "Pt"
-    ],
-    [
-      79,
-      "Gold",
-      "Au"
-    ],
-    [
-      80,
-      "Mercury",
-      "Hg"
-    ],
-    [
-      82,
-      "Lead",
-      "Pb"
-    ],
-    [
-      92,
-      "Uranium",
-      "U"
-    ],
-    [
-      94,
-      "Plutonium",
-      "Pu"
-    ]
-  ];
-
-  // The generated elements
-  var generatedElements;
-
-  const elementTemplate = "<div class=\"element\"><p class=\"number\">{0}</p><p class=\"symbol\">{1}</p><p class=\"name\">{2}</p></div>";
-
-  function generateElements(count) {
-    var elementsBox = document.getElementById("elementsbox");
-    elementsBox.innerHTML = ""
-    for (var i = 0; i < count; i++) {
-      var element = elements[Math.floor(Math.random() * elements.length)];
-
-      elementsBox.innerHTML += elementTemplate.format(element[0], element[2], element[1]);
-    }
-  }
-
-  function generateFromInput(inputId) {
-    var input = document.getElementById(inputId).value;
-    if (Number(input)) { // Submit ONLY if input is a number
-      generateElements(Number(input));
-    }
-  }
-</script>
-
-<h1>Random Element Generator</h1>
-<p>Generate some random elements!</p>
-
-<div id="elementsbox"></div>
-
-<div>
-  <span>Generate <input type="text" id="number"/> element(s)</span>
-  <button type="button" id="submit" onclick="generateFromInput('number')">Generate!</button>
-</div>
-
-<script>
-  // Set up enter-to-submit
-  document.getElementById("number").addEventListener("keyup", function (event) {
-    if (event.keyCode == 13) { // "13" maps to the "Enter" key
-      document.getElementById("submit").click();
-    }
-  });
-
-  generateElements(1);
-</script>
+          <p>On this section of my website, I have a bunch of tools I have created. Enjoy!</p>
+<h2 id="Stuff-to-do-with-Elements"><a href="#Stuff-to-do-with-Elements" class="headerlink" title="Stuff to do with Elements"></a>Stuff to do with Elements</h2><ul>
+<li><a href="./atomicnumbersquizzer">Atomic Numbers Quizzer</a></li>
+<li><a href="./randomelementgenerator">Random Element Generator</a></li>
+</ul>
+<h2 id="Clocks"><a href="#Clocks" class="headerlink" title="Clocks"></a>Clocks</h2><ul>
+<li><a href="./randomtimer">A Random Timer</a></li>
+</ul>
 
       </div>
       
@@ -524,12 +237,6 @@
       
     </div>
     
-  <ul class="breadcrumb">
-          
-            <li><a href="/gizmosngadgets/">GIZMOSNGADGETS</a></li>
-          <li>RANDOMELEMENTGENERATOR</li>
-        
-  </ul>
 
     
     
@@ -584,7 +291,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link"><span class="nav-number">1.</span> <span class="nav-text">Random Element Generator</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Stuff-to-do-with-Elements"><span class="nav-number">1.</span> <span class="nav-text">Stuff to do with Elements</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Clocks"><span class="nav-number">2.</span> <span class="nav-text">Clocks</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
