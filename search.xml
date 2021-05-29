@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Theme Overhaul</title>
+    <url>/2021/03/19/theme-overhaul/</url>
+    <content><![CDATA[<p>If you’ve been visiting this site often (I don’t blame you if you don’t), you may have noticed that the whole site changed dramatically. For example, the navagational panel resides on the left-hand side now, and the theme is much better. For the past month or so, I’ve been tinkering around with <a href="https://hexo.io/">Hexo</a>, another blog generator, this one operating on NodeJS, so I can actually see the results <em>on my computer</em>. So after a while, I got everything working. Only problem is, I somehow corrupted the Git file in the process, so now the version history on the Github repository is now the same as the version history on my testing repository. Oh well…</p>
+]]></content>
+      <tags>
+        <tag>site</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Website Ready to Go!</title>
     <url>/2020/08/11/website-set-up/</url>
     <content><![CDATA[<p>I now have the website all set up! With the help of <a href="https://pages.github.com/">Github Pages</a> (and also a URL), I got this website set up. In case any of you want a website for yourself (because people apparently want that stuff), I’m going to show you how to make one for yourself.</p>
@@ -20,15 +29,6 @@
 <p>Scroll down to the bottom of the page, and press “Commit new file”. Wait a while, and then open <code>[username].github.io</code> in your browser, again replacing <code>[username]</code> with your Github username. You should now see something like this:</p>
 <p><img src="/images/posts/website-set-up/result.png" alt="Result"></p>
 <p>That’s it! For more information, visit [the stuff on Github Docs](<a href="https://docs.github.com/en/github/working-with-github-pages">Working with GitHub Pages - GitHub Docs</a>).</p>
-]]></content>
-      <tags>
-        <tag>site</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Theme Overhaul</title>
-    <url>/2021/03/19/theme-overhaul/</url>
-    <content><![CDATA[<p>If you’ve been visiting this site often (I don’t blame you if you don’t), you may have noticed that the whole site changed dramatically. For example, the navagational panel resides on the left-hand side now, and the theme is much better. For the past month or so, I’ve been tinkering around with <a href="https://hexo.io/">Hexo</a>, another blog generator, this one operating on NodeJS, so I can actually see the results <em>on my computer</em>. So after a while, I got everything working. Only problem is, I somehow corrupted the Git file in the process, so now the version history on the Github repository is now the same as the version history on my testing repository. Oh well…</p>
 ]]></content>
       <tags>
         <tag>site</tag>
