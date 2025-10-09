@@ -16,8 +16,9 @@ direction: ltr
 nav:
   home: /
   about: /about/
-  articles: /archives/
-  projects: https://github.com/asherhe
+  Posts: /archives/
+  Desmos: /desmos-gallery/
+  Github: https://github.com/asherhe
 
 # Links to your social media accounts.
 # The 'icon' keys should correspond to Fontawesome icon names

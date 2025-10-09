@@ -1,0 +1,58 @@
+@import "_variables"
+@import "_colors/" + $colors
+
+.dg-gallery
+  column-count: auto
+  column-width: 250px
+  column-gap: 1rem
+  width: 100%
+
+.dg-item
+  display: inline-block
+  width: 100%
+  padding: 1.5rem
+  margin-bottom: 1rem // gap between elements
+
+  background-color: $color-background-code
+  border-radius: 0.5rem
+  overflow: hidden
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease
+
+  &:hover
+    background-color: lighten($color-background-code, 5%)
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2)
+    transform: translateY(-4px)
+
+a.dg-open
+  display: flex
+  flex-direction: column
+  /* override default hyperlink styling */
+  background: none !important
+  text-decoration: none
+  color: inherit
+
+.dg-thumb
+  width: 100%
+  overflow: hidden
+
+  video.dg-media
+    display: block
+    width: 100%
+    height: auto
+    border-radius: inherit
+
+.dg-title
+  padding: 0.5rem 0.75rem
+  font-weight: 600
+  font-size: 1rem
+  text-align: center
+
+.dg-badge
+  display: inline-block
+  margin: 0.5rem auto
+  padding: 0.25rem 0.5rem
+  border-radius: 0.25rem
+  font-size: 0.8rem
+  color: #fff
+  background-color: #f39c12
+  text-align: center

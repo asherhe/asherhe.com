@@ -1,0 +1,45 @@
+- title: Bernard
+  link: https://www.desmos.com/3d/rhouua0lry?disableLighting=
+  preview:
+    type: video
+    src: /desmos-gallery/previews/bernard.mp4
+  description: bernard
+  beta3d: true
+
+- title: First we mine, then we craft
+  link: https://www.desmos.com/3d/78zlfa8zgs?disableLighting=
+  preview:
+    type: video
+    src: /desmos-gallery/previews/minecraft.mp4
+  beta3d: true
+
+- title: Canyon
+  link: https://www.desmos.com/3d/ps6f5vhfip?disableLighting=
+  preview:
+    type: video
+    src: /desmos-gallery/previews/canyon.mp4
+  beta3d: true
+
+- title: Jello bounce
+  link: https://www.desmos.com/calculator/wnfeq81hhf
+  preview:
+    type: video
+    src: /desmos-gallery/previews/jello.mp4
+
+- title: 2048
+  link: https://www.desmos.com/calculator/3crcm1jrwt
+  preview:
+    type: video
+    src: /desmos-gallery/previews/2048.mp4
+
+- title: Lisp in Lisp in Desmos
+  link: https://www.desmos.com/calculator/fxdhcnensn
+  preview:
+    type: video
+    src: /desmos-gallery/previews/lisp.mp4
+
+- title: Desmos Space Program
+  link: https://www.desmos.com/calculator/7kkn0hm3kg
+  preview:
+    type: video
+    src: /desmos-gallery/previews/space.mp4
