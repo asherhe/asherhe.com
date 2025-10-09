@@ -1,0 +1,51 @@
+- title: Bernard
+  link: https://www.desmos.com/3d/rhouua0lry?disableLighting=
+  preview:
+    type: video
+    src: /desmos-gallery/previews/bernard.mp4
+  description: Everyone's favorite quadtree rendering artifact, now with raymarched reflections and volumetric fog!
+  beta3d: true
+
+- title: First we mine, then we craft
+  link: https://www.desmos.com/3d/78zlfa8zgs?disableLighting=
+  preview:
+    type: video
+    src: /desmos-gallery/previews/minecraft.mp4
+  description: A nice little Minecraft scene rendered in Desmos
+  beta3d: true
+
+- title: Canyon
+  link: https://www.desmos.com/3d/ps6f5vhfip?disableLighting=
+  preview:
+    type: video
+    src: /desmos-gallery/previews/canyon.mp4
+  description: Procedural terrain with realistic lighting and raycasted shadows
+  beta3d: true
+
+- title: Jello bounce
+  link: https://www.desmos.com/calculator/wnfeq81hhf
+  preview:
+    type: video
+    src: /desmos-gallery/previews/jello.mp4
+  description: Softbody simulation of a square of jelly
+
+- title: 2048
+  link: https://www.desmos.com/calculator/3crcm1jrwt
+  preview:
+    type: video
+    src: /desmos-gallery/previews/2048.mp4
+  description: A Desmos clone of the game 2048
+
+- title: Lisp interpreter
+  link: https://www.desmos.com/calculator/fxdhcnensn
+  preview:
+    type: video
+    src: /desmos-gallery/previews/lisp.mp4
+  description: An interpreter for Lisp written entirely in Desmos, running another Lisp interpreter
+
+- title: Desmos Space Program
+  link: https://www.desmos.com/calculator/7kkn0hm3kg
+  preview:
+    type: video
+    src: /desmos-gallery/previews/space.mp4
+  description: Space exploration game featuring realistic orbital physics and a complete solar system

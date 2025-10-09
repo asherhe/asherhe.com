@@ -1,0 +1,41 @@
+<%- page.content %>
+
+<div class="dg-gallery">
+  <% site.data.desmos_graphs.forEach(function(graph, idx) {
+    const title = graph.title || "Graph";
+    const href = graph.link || '#';
+    const preview = graph.preview;
+    const description = graph.description;
+    const beta3d = !!graph.beta3d;
+  %>
+
+  <div class="dg-item" id="dg-<%= idx %>">
+    <a class="dg-open" href="<%= href %>" target="_blank" rel="noopener noreferrer">
+      <div class="dg-thumb">
+        <% if (preview.type === "video") { %>
+        <video class="dg-media" autoplay loop muted playsinline>
+          <source src="<%= preview.src %>" type="video/mp4" />
+        </video>
+        <% } %>
+      </div>
+
+      <div class="dg-title">
+        <span> <%= title %> </span>
+      </div>
+
+      <% if (description) { %>
+      <div class="dg-desc">
+        <span> <%= description %> </span>
+      </div>
+      <% } %>
+
+      <% if(beta3d) { %>
+      <div>
+        <span class="dg-badge">*Requires beta3d</span>
+      </div>
+      <% } %>
+    </a>
+  </div>
+
+  <% }) %>
+</div>
