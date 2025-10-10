@@ -8,6 +8,7 @@
   width: 100%
 
 .dg-item
+  position: relative
   display: inline-block
   width: 100%
   margin-bottom: 1rem // gap between elements
@@ -25,6 +26,9 @@
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2)
     transform: translateY(-4px)
 
+    .dg-newtab-icon
+      color: $color-link
+
 a.dg-open
   display: flex
   flex-direction: column
@@ -37,14 +41,15 @@ a.dg-open
 
 .dg-thumb
   width: 100%
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.5rem
   overflow: hidden
+
+  border-radius: 0.5rem
 
   video.dg-media
     display: block
     width: 100%
     height: auto
-    border-radius: inherit
 
 .dg-title
   font-weight: 600
@@ -62,3 +67,11 @@ a.dg-open
   font-size: 0.6em
   color: $color-accent-1
   text-align: center
+
+.dg-newtab-icon
+  position: absolute
+  bottom: 1rem
+  right: 1rem
+  display: inline-block
+
+  transition: color 0.2s ease
