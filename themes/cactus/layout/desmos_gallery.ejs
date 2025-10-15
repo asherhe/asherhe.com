@@ -1,4 +1,4 @@
-<%- page.content %>
+<%- page.content.replace(/%%preview%%/g, partial("_partial/desmos-gallery/preview")) %>
 
 <div class="dg-gallery">
   <% site.data.desmos_graphs.forEach(function(graph, idx) {
