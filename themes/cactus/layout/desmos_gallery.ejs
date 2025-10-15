@@ -29,11 +29,16 @@
       </div>
       <% } %>
 
-      <% if(beta3d) { %>
       <div>
-        <span class="dg-badge">*Requires beta3d</span>
+        <% if(beta3d) { %>
+        <span class="dg-badge">
+          *Requires beta3d
+          <span class="dg-tooltip">
+            This graph uses experimental features like shaders available only with beta3d.
+          </span>
+        </span>
+        <% } %>
       </div>
-      <% } %>
 
       <i class="fa-solid fa-up-right-from-square dg-newtab-icon"></i>
     </a>
