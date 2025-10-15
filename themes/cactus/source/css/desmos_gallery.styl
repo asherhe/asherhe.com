@@ -8,12 +8,13 @@
   width: 100%
 
 .dg-item
+  position: relative
   display: inline-block
   width: 100%
   margin-bottom: 1rem // gap between elements
 
   border-radius: 0.5rem
-  overflow: hidden
+  // overflow: hidden
   
   background-color: $color-background-code
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1)
@@ -24,6 +25,9 @@
     background-color: lighten($color-background-code, 5%)
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2)
     transform: translateY(-4px)
+
+    .dg-newtab-icon
+      color: $color-link
 
 a.dg-open
   display: flex
@@ -37,14 +41,15 @@ a.dg-open
 
 .dg-thumb
   width: 100%
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.5rem
   overflow: hidden
+
+  border-radius: 0.5rem
 
   video.dg-media
     display: block
     width: 100%
     height: auto
-    border-radius: inherit
 
 .dg-title
   font-weight: 600
@@ -57,8 +62,50 @@ a.dg-open
   text-align: left
 
 .dg-badge
+  position: relative
   display: inline-block
   margin: 0.5rem auto
   font-size: 0.6em
   color: $color-accent-1
   text-align: center
+
+  .dg-tooltip
+    visibility: hidden
+    opacity: 0
+    position: absolute
+    bottom: 125%
+    left: 50%
+    transform: translateX(-50%)
+    width: 15rem
+    $color-tooltip-bg = darken($color-background-code, 5%)
+    background: $color-tooltip-bg
+    box-shadow: 0 2px 8px 0px rgba(0, 0, 0, 0.2)
+    text-align: left
+    padding: 0.5rem 0.75rem
+    border-radius: 0.4rem
+    font-size: 0.75rem
+    line-height: 1.3
+    transition: opacity 0.2s ease, visibility 0.2s ease
+    z-index: 10
+
+    &::after
+      content: ""
+      position: absolute
+      top: 100%
+      left: 50%
+      transform: translateX(-50%)
+      border-width: 8px
+      border-style: solid
+      border-color: $color-tooltip-bg transparent transparent transparent
+  
+  &:hover .dg-tooltip
+    visibility: visible
+    opacity: 1
+
+.dg-newtab-icon
+  position: absolute
+  bottom: 1rem
+  right: 1rem
+  display: inline-block
+
+  transition: color 0.2s ease
