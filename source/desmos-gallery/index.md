@@ -6,10 +6,12 @@ layout: desmos_gallery
 
 This page is a collection of Desmos graphs I've made.
 
-Every one of these graphs is made in 100% vanilla Desmos - no funny extensions or userscripts or anything that adds additional functionality. For example, here's what the 2048 game looks like in Desmos:
+Every one of these graphs is made in 100% vanilla Desmos - no wacky extensions or userscripts or other tomfoolery that adds additional functionality to Desmos.
+
+For example, here's a game of 2048 that I made:
 
 %%preview%%
 
-blah blah blah blah
+Below is a gallery of some of my best Desmos graphs
 
 ---
